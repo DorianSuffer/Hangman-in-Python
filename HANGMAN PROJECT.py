@@ -3,9 +3,6 @@ import random, time
 #--------------------------------------
 moves = 6
 guess = ''
-#----our words-------------------------
-
-
 #--------------------------------------
 def introduction():
     time.sleep(1)
@@ -15,8 +12,6 @@ def introduction():
     print("Welcome in hangman!")
     time.sleep(1)
     print('')
-    
-
 #-----------choices----------------------------------------------
 def choice():
     choice = input("do you wanna play?\ny \ n \nyour choice: ")
